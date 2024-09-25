@@ -1,0 +1,20 @@
+
+const howMuch = (bill) => {
+    
+    if (bill >= 50 && bill <= 300) {
+        var tip = bill * 0.15;
+        return tip;
+    }
+    else {
+        var tip = bill * 0.2;
+        return tip;
+    }
+}
+
+const calcTip = (bill) => {
+    console.log(howMuch());
+}
+
+calcTip(100);
+
+
