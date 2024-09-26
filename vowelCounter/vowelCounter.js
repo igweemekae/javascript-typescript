@@ -14,7 +14,7 @@ function countVowels(word) {
       } 
       return count;
   }
-  
-  console.log(countVowels("bootcamp"));
-  console.log(countVowels("apple")); 
-  console.log(countVowels("pizza"));
+} 
+console.log(countVowels("bootcamp"));
+console.log(countVowels("apple")); 
+console.log(countVowels("pizza"));
